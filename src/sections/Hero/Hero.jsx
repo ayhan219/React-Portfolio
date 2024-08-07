@@ -9,6 +9,7 @@ import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import CV from "../../assets/CV.pdf";
+import pp from "../../assets/pp.png"
 import { useTheme } from "../../common/ThemeContext";
 
 const Hero = () => {
@@ -23,7 +24,7 @@ const Hero = () => {
       <div className={styles.colorModeContainer}>
         <img
           className={styles.hero}
-          src={heroImg}
+          src={pp}
           alt="Profile picture of Ayhan Taha Pastutmaz"
         />
         <img
